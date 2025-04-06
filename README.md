@@ -10,7 +10,7 @@ I chose this song in particular because it articulates how I view community from
 
 ## Technical Overview
 
-The design is inspired by Linkin Park's punk style but meant to be stand alone and not about the band. 
+The design is inspired by Linkin Park's punk style.
 
 The words will be emphasized and reiterated through transformations, colors, and other aspects through CSS.
 
@@ -18,6 +18,10 @@ The code is all done through Visual Studio Code and hosted by GitHub.
 
 ## Acknowledgment
 
-- The song "Somewhere I Belong" is owned by Linkin Park
+- The song "Somewhere I Belong" is by Linkin Park
 
 - Many code was referenced through W3schools
+
+- Fonts sourced from Google Fonts
+
+- Images sourced from Adobe Stock

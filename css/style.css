@@ -1,0 +1,501 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #bfae8e;
+    background-image: url(../img/background.jpg);
+    margin:0;
+}
+
+p {
+    font-size: 70px;
+    font-family: Barrio;
+    color: #ffffff;
+    background-color: #000000;
+    background-size: contain;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 0px -10px 0px -10px;
+    display: block;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 20px;
+    font-family: Frederick the Great;
+    background-color: #ffffff;
+}
+
+img {
+    width: 5%;
+    position: absolute;
+    left: 72%;
+    top: 805%;
+}
+
+a {
+    color: #ffffff;
+}
+
+.wordEcho {
+    background-color: #ffffff;
+    font-family: Fredericka the Great;
+    color: #ffffff;
+    font-size: 50;
+    font-weight: 550;
+    transition-duration: 5s;
+    transition-timing-function: ease-out;
+}
+
+.nothingFont {
+    font-family: Rubik Burned;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #ffffff;
+    transform: scale(150%);
+    transition-duration: 2s;
+    cursor: none;
+}
+
+#wordNothingness {
+    transition-duration: 5s;
+    position: absolute;
+    left: 8%;
+    top: 122%;
+}
+
+#onlyPerson {
+    z-index: 2;
+    position: relative;
+}
+
+#stuck {
+    background-color: transparent;
+    color: #000000;
+    font-size: 100px;
+    cursor: not-allowed;
+}
+
+#hollow {
+    transition-duration: 1s;
+    font-size: 100px;
+}
+
+#alone {
+    transition-duration: 5s;
+}
+
+#hollow:hover {
+    color: #938264;
+}
+
+#alone:hover {
+    transform: scale(0%);
+}
+
+#reveal {
+    color: #000000;
+    transition-duration: 3s;
+    cursor: zoom-in;
+}
+#reveal:hover {
+    color: #ffffff;
+}
+
+.wordEcho:hover {
+    color: #000000;
+    transform: translate(-300px, 0px);
+}
+
+.nothingFont:hover {
+    opacity: 0;
+}
+
+#wordNothingness:hover {
+    transform: scale(2%);
+    transform: translate(0px, 300px);
+}
+
+#faultEcho {
+    position: absolute;
+    top: 474%;
+    transition-duration: 3s;
+
+}
+
+#faultEcho:hover {
+    transform: translate(0px, 200px) scale(80%);
+}
+
+#healFeel {
+    background-color: #ffffff;
+    color: #000000;
+    transition-duration: 1s;
+}
+
+#healFeel:hover {
+    transform: scale(200%);
+    font-family: Rubik Marker Hatch;
+    text-transform: uppercase;
+    animation: textcolor .5s linear infinite;
+}
+
+@keyframes textcolor {
+    from   {color:#000000;}
+    to  {color:#938264;}
+}
+
+#erase {
+    font-family: Fredericka the Great;
+    font-size: 50px;
+    color: #000000;
+    background-color: #ffffff;
+    font-weight: 550;
+    transition-timing-function: ease-out;
+    transition-duration: 1s;
+
+}
+
+#erase:hover {
+    transform: scale(200%);
+    animation-name: erase;
+    animation-delay: 1s;
+    animation-duration: 2s;
+}
+
+@keyframes erase {
+    from {color: #000000;}
+    to {color: #ffffff;}
+}
+#pain {
+    transition-duration: 2s;
+}
+
+#pain:hover {
+    transform: scale(200%);
+    font-family: Rubik Wet Paint;
+    color: #000000;
+    text-transform: uppercase;
+    background-color: transparent;
+}
+
+#somewhere {
+    margin-top: 4000px;
+}
+
+.bottomBG {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+/*complicated mess below*/
+
+#letterOne {
+
+    position: absolute;
+    top: 195%;
+    transition-duration: 1s;
+    opacity: 0;
+    z-index: 1;
+    transition-timing-function: ease-out;
+    left: 0%;
+    cursor: pointer;
+}
+
+#letterTwo {
+
+    position: absolute;
+    top: 195%;
+    transition-duration: 1s;
+    opacity: 0;
+    z-index: 1;
+    transition-timing-function: ease-out;
+    left: 2%;
+    cursor: pointer;
+}
+
+#letterThree {
+
+    position: absolute;
+    top: 195%;
+    transition-duration: 1s;
+    opacity: 0;
+    z-index: 1;
+    transition-timing-function: ease-out;
+    left: 6%;
+    cursor: pointer;
+}
+
+#letterFour {
+
+    position: absolute;
+    top: 195%;
+    transition-duration: 1s;
+    opacity: 0;
+    z-index: 1;
+    transition-timing-function: ease-out;
+    left: 8.5%;
+    cursor: pointer;
+}
+
+#letterFive {
+
+    position: absolute;
+    top: 195%;
+    transition-duration: 1s;
+    opacity: 0;
+    z-index: 1;
+    transition-timing-function: ease-out;
+    left: 11.5%;
+    cursor: pointer;
+}
+
+#letterSix {
+
+    position: absolute;
+    top: 195%;
+    transition-duration: 1s;
+    opacity: 0;
+    z-index: 1;
+    transition-timing-function: ease-out;
+    left: 15%;
+    cursor: pointer;
+}
+
+#letterSeven {
+
+    position: absolute;
+    top: 195%;
+    transition-duration: 1s;
+    opacity: 0;
+    z-index: 1;
+    transition-timing-function: ease-out;
+    left: 18%;
+    cursor: pointer;
+}
+
+#letterEight {
+
+    position: absolute;
+    top: 195%;
+    transition-duration: 1s;
+    opacity: 0;
+    z-index: 1;
+    transition-timing-function: ease-out;
+    left: 21%;
+    cursor: pointer;
+}
+
+#letterNine {
+
+    position: absolute;
+    top: 195%;
+    transition-duration: 1s;
+    opacity: 0;
+    z-index: 1;
+    transition-timing-function: ease-out;
+    left: 25%;
+    cursor: pointer;
+}
+
+#letterTen {
+
+    position: absolute;
+    top: 195%;
+    transition-duration: 1s;
+    opacity: 0;
+    z-index: 1;
+    transition-timing-function: ease-out;
+    left: 28%;
+    cursor: pointer;
+}
+
+#letterEleven {
+
+    position: absolute;
+    top: 195%;
+    transition-duration: 1s;
+    opacity: 0;
+    z-index: 1;
+    transition-timing-function: ease-out;
+    left: 30.5%;
+    cursor: pointer;
+}
+
+#letterTwelve {
+
+    position: absolute;
+    top: 195%;
+    transition-duration: 1s;
+    opacity: 0;
+    z-index: 1;
+    transition-timing-function: ease-out;
+    left: 32.5%;
+    cursor: pointer;
+}
+
+#letterThirteen {
+
+    position: absolute;
+    top: 195%;
+    transition-duration: 1s;
+    opacity: 0;
+    z-index: 1;
+    transition-timing-function: ease-out;
+    left: 36%;
+    cursor: pointer;
+}
+
+#letterFourteen {
+
+    position: absolute;
+    top: 195%;
+    transition-duration: 1s;
+    opacity: 0;
+    z-index: 1;
+    transition-timing-function: ease-out;
+    left: 38.5%;
+    cursor: pointer;
+}
+
+#letterFifteen {
+
+    position: absolute;
+    top: 195%;
+    transition-duration: 1s;
+    opacity: 0;
+    z-index: 1;
+    transition-timing-function: ease-out;
+    left: 40.5%;
+    cursor: pointer;
+}
+
+#letterSixteen {
+
+    position: absolute;
+    top: 195%;
+    transition-duration: 1s;
+    opacity: 0;
+    z-index: 1;
+    transition-timing-function: ease-out;
+    left: 42.5%;
+    cursor: pointer;
+}
+
+#letterSeventeen {
+
+    position: absolute;
+    top: 195%;
+    transition-duration: 1s;
+    opacity: 0;
+    z-index: 1;
+    transition-timing-function: ease-out;
+    left: 44.5%;
+    cursor: pointer;
+}
+
+#letterEighteen {
+
+    position: absolute;
+    top: 195%;
+    transition-duration: 1s;
+    opacity: 0;
+    z-index: 1;
+    transition-timing-function: ease-out;
+    left: 47%;
+    cursor: pointer;
+}
+
+#letterOne:hover {
+    transform: translateY(290px);
+    opacity: 100;
+}
+
+#letterTwo:hover {
+    transform: translateY(290px);
+    opacity: 100;
+}
+
+#letterThree:hover {
+    transform: translateY(290px);
+    opacity: 100;
+}
+
+#letterFour:hover {
+    transform: translateY(290px);
+    opacity: 100;
+}
+
+#letterFive:hover {
+    transform: translateY(290px);
+    opacity: 100;
+}
+
+#letterSix:hover {
+    transform: translateY(290px);
+    opacity: 100;
+}
+
+#letterSeven:hover {
+    transform: translateY(290px);
+    opacity: 100;
+}
+
+#letterEight:hover {
+    transform: translateY(290px);
+    opacity: 100;
+}
+
+#letterNine:hover {
+    transform: translateY(290px);
+    opacity: 100;
+}
+
+#letterTen:hover {
+    transform: translateY(290px);
+    opacity: 100;
+}
+
+#letterEleven:hover {
+    transform: translateY(290px);
+    opacity: 100;
+}
+
+#letterTwelve:hover {
+    transform: translateY(290px);
+    opacity: 100;
+}
+
+#letterThirteen:hover {
+    transform: translateY(290px);
+    opacity: 100;
+}
+
+#letterFourteen:hover {
+    transform: translateY(290px);
+    opacity: 100;
+}
+
+#letterFifteen:hover {
+    transform: translateY(290px);
+    opacity: 100;
+}
+
+#letterSixteen:hover {
+    transform: translateY(290px);
+    opacity: 100;
+}
+
+#letterSeventeen:hover {
+    transform: translateY(290px);
+    opacity: 100;
+}
+
+#letterEighteen:hover {
+    transform: translateY(290px);
+    opacity: 100;
+}
